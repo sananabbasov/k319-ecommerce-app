@@ -1,0 +1,229 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/obj/Debug/net8.0/scopedcss/projectbundle/Ecommerce.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets/Ecommerce.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/front/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/style.css",
+      "PackagePath": "staticwebassets/front/css/style.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/css/style.min.css",
+      "PackagePath": "staticwebassets/front/css/style.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/front/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/front/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/carousel-3.jpg",
+      "PackagePath": "staticwebassets/front/img/carousel-3.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/cat-1.jpg",
+      "PackagePath": "staticwebassets/front/img/cat-1.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/cat-2.jpg",
+      "PackagePath": "staticwebassets/front/img/cat-2.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/cat-3.jpg",
+      "PackagePath": "staticwebassets/front/img/cat-3.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/cat-4.jpg",
+      "PackagePath": "staticwebassets/front/img/cat-4.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/offer-1.jpg",
+      "PackagePath": "staticwebassets/front/img/offer-1.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/offer-2.jpg",
+      "PackagePath": "staticwebassets/front/img/offer-2.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/payments.png",
+      "PackagePath": "staticwebassets/front/img/payments.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-1.jpg",
+      "PackagePath": "staticwebassets/front/img/product-1.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-2.jpg",
+      "PackagePath": "staticwebassets/front/img/product-2.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-3.jpg",
+      "PackagePath": "staticwebassets/front/img/product-3.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-4.jpg",
+      "PackagePath": "staticwebassets/front/img/product-4.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-5.jpg",
+      "PackagePath": "staticwebassets/front/img/product-5.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-6.jpg",
+      "PackagePath": "staticwebassets/front/img/product-6.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-7.jpg",
+      "PackagePath": "staticwebassets/front/img/product-7.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-8.jpg",
+      "PackagePath": "staticwebassets/front/img/product-8.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/product-9.jpg",
+      "PackagePath": "staticwebassets/front/img/product-9.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/user.jpg",
+      "PackagePath": "staticwebassets/front/img/user.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-1.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-1.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-2.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-2.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-3.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-3.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-4.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-4.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-5.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-5.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-6.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-6.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-7.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-7.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/img/vendor-8.jpg",
+      "PackagePath": "staticwebassets/front/img/vendor-8.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/js/main.js",
+      "PackagePath": "staticwebassets/front/js/main.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/front/lib/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/front/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/front/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebUI/wwwroot/front/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/front/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Ecommerce.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Ecommerce.WebUI.props",
+      "PackagePath": "build\\Ecommerce.WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Ecommerce.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce.WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Ecommerce.WebUI.props",
+      "PackagePath": "buildTransitive\\Ecommerce.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

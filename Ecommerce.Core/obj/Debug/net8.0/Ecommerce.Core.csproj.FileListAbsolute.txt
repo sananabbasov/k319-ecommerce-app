@@ -1,0 +1,12 @@
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/bin/Debug/net8.0/Ecommerce.Core.deps.json
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/bin/Debug/net8.0/Ecommerce.Core.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/bin/Debug/net8.0/Ecommerce.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.csproj.AssemblyReference.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.AssemblyInfoInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.AssemblyInfo.cs
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.csproj.CoreCompileInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/refint/Ecommerce.Core.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/Ecommerce.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Core/obj/Debug/net8.0/ref/Ecommerce.Core.dll
