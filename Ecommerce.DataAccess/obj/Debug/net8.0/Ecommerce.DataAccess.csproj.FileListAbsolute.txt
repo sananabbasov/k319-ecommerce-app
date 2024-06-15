@@ -17,3 +17,4 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.DataAccess/obj/Debug/net8.0/Ecommerce.DataAccess.genruntimeconfig.cache
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.DataAccess/bin/Debug/net8.0/Ecommerce.Core.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.DataAccess/bin/Debug/net8.0/Ecommerce.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.DataAccess/obj/Debug/net8.0/Ecommerce.DataAccess.sourcelink.json

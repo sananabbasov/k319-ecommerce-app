@@ -10,3 +10,4 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Entities/obj/Debug/net8.0/refint/Ecommerce.Entities.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Entities/obj/Debug/net8.0/Ecommerce.Entities.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Entities/obj/Debug/net8.0/ref/Ecommerce.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.Entities/obj/Debug/net8.0/Ecommerce.Entities.sourcelink.json

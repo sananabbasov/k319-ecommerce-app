@@ -84,3 +84,10 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/Ecommerce.WebApi.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/Ecommerce.WebApi.genruntimeconfig.cache
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/ref/Ecommerce.WebApi.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/StackExchange.Redis.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/Ecommerce.WebApi.sourcelink.json
