@@ -9,5 +9,4 @@ namespace Ecommerce.Business.Abstract;
 public interface ICategoryService
 {
     List<CategoryHomeDto> GetHomeCategories();
-    // Salam 
 }

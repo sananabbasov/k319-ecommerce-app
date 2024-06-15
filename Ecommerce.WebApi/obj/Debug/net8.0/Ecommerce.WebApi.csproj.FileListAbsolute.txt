@@ -84,3 +84,4 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/Ecommerce.WebApi.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/Ecommerce.WebApi.genruntimeconfig.cache
 /Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/obj/Debug/net8.0/ref/Ecommerce.WebApi.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K319/MVC/Ecommerce/Ecommerce.WebApi/bin/Debug/net8.0/AutoMapper.dll

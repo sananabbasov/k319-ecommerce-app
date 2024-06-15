@@ -16,6 +16,15 @@ public class AppDbContext : IdentityDbContext<User>
         optionsBuilder.UseSqlServer("Server=127.0.0.1,1433;Database=K319Ecommerce; User Id=SA; Password=Ehmed123; TrustServerCertificate=True;");
     }
 
+    public AppDbContext()
+    {
+        
+    }
+    public AppDbContext(DbContextOptions options):base(options)
+    {
+        
+    }
+
     public DbSet<Category> Categories { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderItem> OrderItems { get; set; }
