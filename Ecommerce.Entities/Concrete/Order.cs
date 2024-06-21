@@ -6,7 +6,7 @@ using Ecommerce.Entities.Enums;
 
 namespace Ecommerce.Entities.Concrete;
 
-public class    Order : BaseEntity
+public class Order : BaseEntity
 {
     public decimal TotalPrice { get; set; }
     public string DeliveryAddress { get; set; }
