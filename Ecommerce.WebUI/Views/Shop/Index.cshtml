@@ -110,7 +110,7 @@
                     @foreach (var category in Model.CategoryHome)
                     {
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="radio" class="custom-control-input" name="category" id="size-all-@category.Id">
+                            <input onclick="selectCategory(@category.Id)" type="radio" class="custom-control-input" name="category" id="size-all-@category.Id">
                             <label class="custom-control-label" for="size-all-@category.Id">@category.CategoryName</label>
                             <span class="badge border font-weight-normal">@category.ProductCount</span>
                         </div>
@@ -206,7 +206,7 @@
                             {
                                 if (i > 0)
                                 {
-                                    <li class='page-item'><a class="page-link" href="/shop/index?currentPage=@i">@i</a>
+                                    <li class='page-item'><a class="page-link" href="/shop/index?currentPage=@i&categoryId=@ViewBag.CurrentCategoryId">@i</a>
                                     </li>
                                 }
 
@@ -219,7 +219,7 @@
 
                                 if (i <= Model.Products.PageSize)
                                 {
-                                    <li class='page-item'><a class="page-link" href="/shop/index?currentPage=@i">@i</a>
+                                    <li class='page-item'><a class="page-link" href="/shop/index?currentPage=@i&categoryId=@ViewBag.CurrentCategoryId ">@i</a>
                                     </li>
                                 }
                             }
@@ -241,3 +241,13 @@
     </div>
 </div>
 <!-- Shop End -->
+
+
+
+<script>
+    function selectCategory(category)
+    {
+        window.location = "/shop/index?currentPage=@Model.Products.CurrentPage&categoryId=" + category;
+
+    }
+</script>

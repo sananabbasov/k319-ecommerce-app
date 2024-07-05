@@ -17,6 +17,18 @@ public class CategoryManager : ICategoryService
         _categoryDal = categoryDal;
     }
 
+    public List<CategoryProductDto> GetCategories()
+    {
+        var categories = _categoryDal.GetCategoriesWithProducts(12)
+        .Select(x => new CategoryProductDto
+        {
+            Id = x.Id,
+            CategoryName = x.Name
+        }).ToList();
+
+        return categories;
+    }
+
     public List<CategoryHomeDto> GetHomeCategories()
     {
         var categories = _categoryDal.GetCategoriesWithProducts(12)

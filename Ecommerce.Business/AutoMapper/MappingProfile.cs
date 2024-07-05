@@ -32,5 +32,10 @@ public class MappingProfile : Profile
 
         CreateMap<Product, ProductShopDto>()
             .ForMember(x => x.PhotoUrl, o => o.MapFrom(s => s.Photos.FirstOrDefault().Url));
+
+        CreateMap<Product, ProductDashboardListDto>();
+
+        CreateMap<ProductCreateDto, Product>();
+        CreateMap<Product, ProductUpdateDto>().ReverseMap();
     }
 }

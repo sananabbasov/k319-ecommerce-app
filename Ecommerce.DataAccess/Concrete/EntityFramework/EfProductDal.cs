@@ -30,10 +30,21 @@ public class EfProductDal : EfRepositoryBase<Product, AppDbContext>, IProductDal
     {
         using var context = new AppDbContext();
         int skip = (currentPage - 1) * 9; // 2 - 1  = 1  * 9 = 9
-        var products = context.Products.Include(x => x.Photos).OrderByDescending(x => x.Id).Skip(skip).Take(9).ToList();
+        var products = new List<Product>();
+        int productCount = 0;
+        if (categoryId != 0)
+        {
+            products = context.Products.Include(x => x.Photos).Where(x => x.CategoryId == categoryId).OrderByDescending(x => x.Id).Skip(skip).Take(9).ToList();
+            productCount = context.Products.Where(x => x.CategoryId == categoryId).Count();
+        }
+        else
+        {
+            products = context.Products.Include(x => x.Photos).OrderByDescending(x => x.Id).Skip(skip).Take(9).ToList();
+            productCount = context.Products.Count();
+        }
         PaginationResponse<Product> pagination = new()
         {
-            PageSize = context.Products.ToList().Count(),
+            PageSize = productCount,
             CurrentPage = currentPage,
             Data = products
         };

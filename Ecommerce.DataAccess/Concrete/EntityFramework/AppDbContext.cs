@@ -41,6 +41,7 @@ public class AppDbContext : IdentityDbContext<User>
     }
 
 
+
     public override int SaveChanges()
     {
         var datas = ChangeTracker.Entries<BaseEntity>();
