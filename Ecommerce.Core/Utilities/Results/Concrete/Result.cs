@@ -27,4 +27,8 @@ public class Result : IResult
 
 
 
+
 }
+
+// new Result(true, "Elave olundu");
+// new Result(false, "Xeta bas verdi");
