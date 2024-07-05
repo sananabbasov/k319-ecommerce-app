@@ -26,6 +26,7 @@ public class ShopController : Controller
 
     public IActionResult Index(int maxPrice,  int categoryId, int currentPage=1, int minPrice = 0)
     {  
+        ViewBag.CurrentCategoryId = categoryId;
         var products = _productService.ShopProducts(currentPage,minPrice, maxPrice, categoryId);
         var categories = _categoryService.GetHomeCategories();
         ShopVm vm = new()
