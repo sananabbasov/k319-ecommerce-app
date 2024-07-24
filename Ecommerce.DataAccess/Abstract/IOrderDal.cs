@@ -9,5 +9,5 @@ namespace Ecommerce.DataAccess.Abstract;
 
 public interface IOrderDal : IRepositoryBase<Order>
 {
-    
+    List<Order> GetDashboardOrders();
 }

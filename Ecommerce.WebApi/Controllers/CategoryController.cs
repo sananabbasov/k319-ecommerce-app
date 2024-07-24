@@ -11,19 +11,12 @@ namespace Ecommerce.WebApi.Controllers;
 [Route("api/[controller]")]
 public class CategoryController : ControllerBase
 {
-    private readonly ICategoryService _categoryService;
 
-    public CategoryController(ICategoryService categoryService)
-    {
-        _categoryService = categoryService;
-    }
 
-    [HttpGet("get")]
+    [HttpGet]
     public IActionResult Get()
     {
-
-        var res = _categoryService.GetHomeCategories();
-        return Ok(res);
+        return Ok("result");
     }
 
 

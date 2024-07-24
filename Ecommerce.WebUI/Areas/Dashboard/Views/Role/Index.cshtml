@@ -1,0 +1,34 @@
+@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <a href="/dashboard/role/create">
+            <h6 class="m-0 font-weight-bold text-primary">Create role</h6>
+        </a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col-8">Name</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Name</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var role in Model)
+                    {
+                        <tr>
+                            <td class="col-9">@role.Name</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

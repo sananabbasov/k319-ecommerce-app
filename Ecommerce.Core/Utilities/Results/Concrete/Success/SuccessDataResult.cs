@@ -7,9 +7,7 @@ namespace Ecommerce.Core.Utilities.Results.Concrete.Success;
 
 public class SuccessDataResult<TData> : DataResult<TData>
 {
-    public SuccessDataResult() : base(true)
-    {
-    }
+    
 
     public SuccessDataResult(string message) : base(true, message)
     {

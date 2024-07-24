@@ -1,0 +1,59 @@
+@model IEnumerable<UserDashboardDto>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Email</th>
+                        <th scope="col">FirsttName</th>
+                        <th scope="col">LastName</th>
+                        <th scope="col">Role</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th scope="col">Email</th>
+                        <th scope="col">FirsttName</th>
+                        <th scope="col">LastName</th>
+                        <th scope="col">Role</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.NormalizedEmail</td>
+                            <td>@user.FirsttName</td>
+                            <td>@user.LastName</td>
+
+                            <td>
+                                <form method="post">
+                                    <select name="role" onchange="this.form.submit()" class="form-control">
+                                        @foreach (var role in ViewBag.Roles)
+                                        {
+                                            if (user.RoleId == role.Id)
+                                            {
+                                                <option value="@role.Name" selected>@role.Name</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@role.Name">@role.Name</option>
+                                            }
+
+                                        }
+                                    </select>
+                                    <input type="hidden" value="@user.Id" name="userId">
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> using Ecommerce.Entities.Concrete;

@@ -2,6 +2,7 @@ using AutoMapper;
 using Ecommerce.Business.Abstract;
 using Ecommerce.Business.AutoMapper;
 using Ecommerce.Business.Concrete;
+using Ecommerce.Business.DependencyResolver;
 using Ecommerce.DataAccess.Abstract;
 using Ecommerce.DataAccess.Concrete.EntityFramework;
 using Ecommerce.DataAccess.DataSeeder;
@@ -21,23 +22,7 @@ CreateData.CreateFakeData();
 // builder.Services.AddHttpClient();
 
 
-
-builder.Services.AddStackExchangeRedisCache(option =>
-{
-    option.Configuration =  "localhost";
-    option.InstanceName = "basket";
-});
-
-builder.Services.AddScoped<ICategoryService, CategoryManager>();
-builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
-
-
-builder.Services.AddScoped<IOrderService, OrderManager>();
-builder.Services.AddScoped<IOrderDal, EfOrderDal>();
-
-
-builder.Services.AddScoped<IProductService, ProductManager>();
-builder.Services.AddScoped<IProductDal, EfProductDal>();
+builder.Services.AddBusinesRegistration();
 
 builder.Services.AddDbContext<AppDbContext>(o => {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -45,14 +30,6 @@ builder.Services.AddDbContext<AppDbContext>(o => {
 
 builder.Services.AddDefaultIdentity<User>().AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
-
-
-var mapperConfig = new MapperConfiguration(mc => {
-    mc.AddProfile(new MappingProfile());
-});
-
-IMapper mapper = mapperConfig.CreateMapper();
-builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 

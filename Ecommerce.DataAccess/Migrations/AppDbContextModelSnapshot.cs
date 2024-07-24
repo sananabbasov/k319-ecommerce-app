@@ -369,12 +369,17 @@ namespace Ecommerce.DataAccess.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedName")
                         .IsUnique()
                         .HasDatabaseName("RoleNameIndex")
                         .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Roles", (string)null);
                 });
@@ -488,7 +493,7 @@ namespace Ecommerce.DataAccess.Migrations
             modelBuilder.Entity("Ecommerce.Entities.Concrete.Order", b =>
                 {
                     b.HasOne("Ecommerce.Entities.Concrete.User", "User")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -556,6 +561,13 @@ namespace Ecommerce.DataAccess.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.HasOne("Ecommerce.Entities.Concrete.User", null)
+                        .WithMany("Roles")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -628,7 +640,11 @@ namespace Ecommerce.DataAccess.Migrations
 
             modelBuilder.Entity("Ecommerce.Entities.Concrete.User", b =>
                 {
+                    b.Navigation("Orders");
+
                     b.Navigation("Products");
+
+                    b.Navigation("Roles");
                 });
 #pragma warning restore 612, 618
         }

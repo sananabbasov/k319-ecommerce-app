@@ -9,5 +9,5 @@ namespace Ecommerce.DataAccess.Abstract;
 
 public interface IUserDal : IRepositoryBase<User>
 {
-    
+    List<User> GetUserAndRole();
 }

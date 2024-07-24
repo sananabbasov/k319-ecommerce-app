@@ -1,7 +1,11 @@
 using Ecommerce.Business.Abstract;
 using Ecommerce.Business.Concrete;
+using Ecommerce.Business.DependencyResolver;
 using Ecommerce.DataAccess.Abstract;
 using Ecommerce.DataAccess.Concrete.EntityFramework;
+using Ecommerce.Entities.Concrete;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +16,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<ICategoryService, CategoryManager>();
-builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddBusinesRegistration();
 
+builder.Services.AddDbContext<AppDbContext>(o => {
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddDefaultIdentity<User>().AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

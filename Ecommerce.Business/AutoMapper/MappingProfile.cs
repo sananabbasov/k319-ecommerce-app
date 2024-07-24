@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Ecommerce.Entities.Concrete;
 using Ecommerce.Entities.Dtos.CategoryDtos;
+using Ecommerce.Entities.Dtos.OrderDtos;
 using Ecommerce.Entities.Dtos.ProductDtos;
+using Ecommerce.Entities.Dtos.UserDtos;
 
 namespace Ecommerce.Business.AutoMapper;
 
@@ -36,6 +38,8 @@ public class MappingProfile : Profile
 
         CreateMap<Product, ProductDashboardListDto>();
 
+
+
         CreateMap<ProductCreateDto, Product>();
         CreateMap<Product, ProductUpdateDto>().ReverseMap();
 
@@ -44,5 +48,14 @@ public class MappingProfile : Profile
         CreateMap<Category, CategoryDashboardDto>();
         
         CreateMap<Category, CategoryUpdateDto>().ReverseMap();
+
+        CreateMap<Order, OrderDashboardDto>()
+            .ForMember(x=>x.UserFullName, z=>z.MapFrom(a=>a.User.FirsttName + " " + a.User.LastName));
+
+
+        CreateMap<User, UserDashboardDto>()
+            .ForMember(x=>x.RoleId, y=>y.MapFrom(a=>a.Roles.FirstOrDefault().Id));
+
+        
     }
 }
